@@ -67,7 +67,7 @@ Function WriteErrorDetails{# Write error details to powershell console
 
 Function Check-Modules{# Check if required powershell gallery modules are installed
   # Check to see if required powershell dz.write-message module is installed
-  Write-Host ('Checking if Required PowerShell Module Dz.Write-Message is Installed...') -ForegroundColor Yellow
+  Write-Host;Write-Host ('Checking if Required PowerShell Module Dz.Write-Message is Installed...') -ForegroundColor Yellow
   If (Get-Module -ListAvailable -Name Dz.Write-Message) {
     # Import module dz.write-message
     Import-Module Dz.Write-Message
