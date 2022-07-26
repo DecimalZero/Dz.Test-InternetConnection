@@ -9,7 +9,11 @@
    If there is an error, an error will display warning the Internet is unreachable.
 
    NOTE: To use this within a PowerShell console, check out DNSLookup.ps1 in the Example folder.
+</pre>
 
+![](/Images/DNSLookup.png?raw=true)
+
+<pre>
    _____________________________________________________________________________________________
 
    New to PowerShell? This PowerShell example is a great way to learn the following...
