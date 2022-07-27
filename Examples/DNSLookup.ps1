@@ -51,6 +51,9 @@ Param (
   [Switch]$Debug
 )
 
+# Set powershell window title
+$Host.UI.RawUI.WindowTitle = 'DNS Lookup'
+
 # Check if dns domain name parameter is blank
 If ($DnsDomainName -eq ''){
   # Set dns domain name variable

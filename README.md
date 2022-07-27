@@ -14,6 +14,12 @@
 ![](/Images/DNSLookup.png?raw=true)
 
 <pre>
+   Need Help? Type .\Test-InternetConnection.ps1 -Help
+</pre>
+
+![](/Images/DNSLookupHelp.png?raw=true)
+
+<pre>
    _____________________________________________________________________________________________
 
    New to PowerShell? This PowerShell example is a great way to learn the following...
