@@ -101,7 +101,7 @@ PrivateData = @{
         ProjectUri = 'https://github.com/DecimalZero/Dz.Test-InternetConnection'
 
         # A URL to an icon representing this module.
-        IconUri = 'https://github.com/DecimalZero/Dz.Test-InternetConnection/tree/main/Images/Dz.Test-InternetConnection.png'
+        IconUri = 'https://github.com/DecimalZero/Dz.Test-InternetConnection/tree/main/Images/Test-InternetConnection.png'
 
         # ReleaseNotes of this module
         ReleaseNotes = 'https://github.com/DecimalZero/Dz.Test-InternetConnection/blob/main/README.md'
