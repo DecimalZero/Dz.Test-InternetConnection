@@ -9,7 +9,7 @@
 RootModule = 'Dz.Test-InternetConnection.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.3'
+ModuleVersion = '1.0.4'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -66,7 +66,7 @@ Description = 'Test-InternetConnection is a quick why to see if you are online u
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = @('Test-InternetConnection')
+FunctionsToExport = @('TestInternetConnection')
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
@@ -92,7 +92,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('Test-InternetConnection', 'InternetConnection', 'Check', 'Internet', 'DNSLookup', 'DNS', 'Lookup', 'PowerShell', 'Console', 'Install', 'Module', 'Parameters', 'String', 'Switch', 'Function', 'Help', 'Error', 'DecimalZero')
+        Tags = @('Test-InternetConnection', 'InternetConnection', 'Check', 'Internet', 'DNSLookup', 'DNS', 'Lookup', 'PowerShell', 'Console', 'Install', 'Module', 'Parameters', 'String', 'Switch', 'Function', 'Help', 'Error', 'DecimalZero', 'Dz')
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/DecimalZero/Dz.Test-InternetConnection/blob/main/LICENSE'
