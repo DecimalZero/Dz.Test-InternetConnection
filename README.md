@@ -24,8 +24,22 @@
 ![](/Images/PSFile02.png?raw=true)
 
 <pre>
-  2.) Pass an invalid Internet domain name to see error.
+  2a.) Pass an invalid Internet domain name to see error.
 </pre>
 
 ![](/Images/PSFake01.png?raw=true)
 ![](/Images/PSFake02.png?raw=true)
+
+<pre>
+  2b.) Pass a PowerShell debug switch to see addtional information.
+</pre>
+
+![](/Images/Debug01.png?raw=true)
+![](/Images/Debug02.png?raw=true)
+
+<pre>
+  3.) Need Help? This example will show you how to make your own help file.
+</pre>
+
+![](/Images/Help01.png?raw=true)
+![](/Images/Help02.png?raw=true)
