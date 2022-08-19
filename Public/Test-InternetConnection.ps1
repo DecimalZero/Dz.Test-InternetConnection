@@ -71,8 +71,28 @@ Function TestInternetConnection{
   # Write message to powershell console
   Clear-Host; Write-Host; Write-Host 'Checking PowerShell Session Parameters...' -ForegroundColor Yellow
 
+  # Check if dns domain name parameter is blank
+  If ($DnsDomainName -eq ''){
+    # Set dns domain name variable
+    $DnsDomainName = 'azure.microsoft.com'
+  }
+
+  # Set help variable
+  If ($Help2 -eq $True){
+    $Help = $Help2
+  }Else {
+    $Help = $Help1
+  }
+
+  # Set debug variable
+  If ($Debug2 -eq $True){
+    $Debug = $Debug2
+  }Else {
+    $Debug = $Debug1
+  }
+
   # Check for the debug switch
-  If($Debug2){
+  If($Debug -eq $True){
     # Set debug preferences to continue
     $DebugPreference = 'Continue'
     $WarningPreference = 'Continue'
@@ -106,26 +126,6 @@ Function TestInternetConnection{
 
     Write-Host ' - Error ActionPreference is ' -ForegroundColor Cyan -NoNewLine
     Write-Host $ErrorActionPreference -ForegroundColor Red
-  }
-
-  # Check if dns domain name parameter is blank
-  If ($DnsDomainName -eq ''){
-    # Set dns domain name variable
-    $DnsDomainName = 'azure.microsoft.com'
-  }
-
-  # Set help variable
-  If ($Help2){
-    $Help = $Help2
-  }Else {
-    $Help = $Help1
-  }
-
-  # Set debug variable
-  If ($Debug2){
-    $Debug = $Debug2
-  }Else {
-    $Debug = $Debug1
   }
 
   Function Help-Message{# Custom help message
