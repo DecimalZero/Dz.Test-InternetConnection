@@ -34,12 +34,20 @@
   2b.) Pass a PowerShell debug switch to see addtional information.
 </pre>
 
-![](/Images/Debug01.png?raw=true)
-![](/Images/Debug02.png?raw=true)
+![](/Images/PSDebug01.png?raw=true)
+![](/Images/PSDebug02.png?raw=true)
 
 <pre>
   3.) Need Help? This example will show you how to make your own help file.
 </pre>
 
-![](/Images/Help01.png?raw=true)
-![](/Images/Help02.png?raw=true)
+![](/Images/PSHelp01.png?raw=true)
+![](/Images/PSHelp02.png?raw=true)
+
+<pre>
+  4.) Import PowerShell Modile and call the Module Function.
+</pre>
+
+![](/Images/PSModule01.png?raw=true)
+![](/Images/PSModule02.png?raw=true)
+![](/Images/PSModule03.png?raw=true)
