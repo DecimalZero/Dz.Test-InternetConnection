@@ -1,45 +1,31 @@
 ![](/Images/Test-InternetConnection.png?raw=true)
 
 <pre>
-   Test-InternetConnection is a quick way to see if you are online utilizing DNS Lookup.
-   This function can be called by other PowerShell scripts to check if the Internet is
-   accessible before performming Azure, GCP, or AWS REST API calls across the Internet.
-
-   When using Test-InternetConnection, if Successful, nothing is returned or displayed.
-   If there is an error, an error will display warning the Internet is unreachable.
-
-   NOTE: To use this within a PowerShell console, check out DNSLookup.ps1 in the Example folder.
+  Test-InternetConnection is an example PowerShell script to learn how to write a
+  custom PowerShell Module. This example PowerShell Module is programmed to be executed
+  two diffrent ways, by calling the file or importing the module and calling the
+  PowerShell function in memory. This example querys the Internet DNS for a domain,
+  DNS Lookup. With a little modification, this function can be called by other PowerShell
+  scripts to check if the Internet is accessible before performming Azure, GCP, or AWS
+  REST API calls across the Internet.
+   
+  1a.) The following command is executed without passing a pramater. The defule DNS
+       Domain Name is Azure.Microsoft.com.
 </pre>
 
-![](/Images/DNSLookup.png?raw=true)
+![](/Images/PSTIC01.png?raw=true)
+![](/Images/PSTIC02.png?raw=true)
 
 <pre>
-   Need Help? Type .\Test-InternetConnection.ps1 -Help
+  1b.) You can also pass any Internet domain name.
 </pre>
 
-![](/Images/DNSLookupHelp.png?raw=true)
+![](/Images/PSFile01.png?raw=true)
+![](/Images/PSFile02.png?raw=true)
 
 <pre>
-   _____________________________________________________________________________________________
-
-   New to PowerShell? This PowerShell example is a great way to learn the following...
-
-   1.) How to use Parameters
-   2.) How to use a PowerShell String
-   3.) How to use a PowerShell Switch
-   4.) How to Pass a Variable to a Function
-   5.) How to Write a PowerShell Help Function
-   6.) How to Write PowerShell Error Details
-   7.) How to Automatically Check for Installed Modules
-   8.) How to Automatically Install PowerShell Modules
-   9.) How to Perform an Internet DNS Lookup
-
-   _____________________________________________________________________________________________
-
-   EXAMPLES:
-   .\Test-InternetConnection.ps1
-   .\Test-InternetConnection.ps1 -Help
-   .\Test-InternetConnection.ps1 Google.com
-   .\Test-InternetConnection.ps1 SomeFakeDomainName.com
-   .\Test-InternetConnection.ps1 SomeFakeDomainName.com -Debug
+  2.) Pass an invalid Internet domain name to see error.
 </pre>
+
+![](/Images/PSFake01.png?raw=true)
+![](/Images/PSFake02.png?raw=true)
